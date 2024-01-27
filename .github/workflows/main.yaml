@@ -24,4 +24,5 @@ jobs:
           echo "::endgroup::"
       - shell: python
         run: |
-          print("::notice title=Notice Title From Python::Notice message in \n two lines")
+          print("::warning title=A Warning From Python::First line........rojgwgwr wrg wr gw rgwr gw rgw rgw g wrigjworijg wr gwirgj  worgjiw rog")
+          print("::warning title=A Multiline Warning Title From Python::First line.\nSecond Line.\nThird Line.")
