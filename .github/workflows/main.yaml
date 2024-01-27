@@ -26,4 +26,6 @@ jobs:
         run: |
           print("::warning title=A Warning From Python::First line........rojgwgwr wrg wr gw rgwr gw rgw rgw g wrigjworijg wr gwirgj  worgjiw rog")
           print("::warning title=A Multiline Warning Title From Python::First line.\nSecond Line.\nThird Line.")
-          print("::debug::First line.\nSecond Line.\n  Third Line.\n    Fourth Line")
+          print("::debug::A sinle line debug message from python")
+          print("::debug::First Xline.\nSecond XLine.\n  XThird Line.\n    Fourth XLine")
+          print("::debug::A sinle line debug message from python")
