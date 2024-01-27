@@ -22,3 +22,6 @@ jobs:
           echo "::warning file=app.js,line=1,col=5,endColumn=7,title=Warning Title::Missing semicolon"
           echo "::error file=app.js,line=1,col=5,endColumn=7,title=Error Title::Missing semicolon"
           echo "::endgroup::"
+      - shell: python
+        run: |
+          print("::notice title=Notice Title From Python::Notice message in \n two lines")
