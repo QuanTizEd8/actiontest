@@ -24,7 +24,7 @@ jobs:
           echo "::endgroup::"
       - shell: python
         run: |
-          print("::warning title=A Warning From Python::First line........rojgwgwr wrg wr gw rgwr gw rgw rgw g wrigjworijg wr gwirgj  worgjiw rog")
+          print("::warning title=A Warning From Python::\033[1;38;2;255;255;255;48;2;150;0;170mFirst line........rojgwgwr wrg wr gw rgwr gw rgw rgw g wrigjworijg wr gwirgj  worgjiw rog")
           print("::warning title=A Multiline Warning Title From Python::First line.\nSecond Line.\nThird Line.")
           print("::debug::A sinle line debug message from python")
           print("::debug::First Xline.\nSecond XLine.\n  XThird Line.\n    Fourth XLine")
