@@ -14,7 +14,7 @@ jobs:
           echo "::warning title=😬Warning Title::🙋Missing semicolon"
           echo "::error file=app.js,line=1,col=5,endColumn=7,title=Error Title::Missing semicolon"
           
-          echo "::group::My title"
+          echo "::group::\033[1;38;2;255;255;255;48;2;150;0;170mMy title"
           echo "::debug::This is a single-line debug."
           echo "::debug::Multi\nline\debug"
           echo "::notice file=app.js,line=1,col=5,endColumn=7,title=Notice Title::Notice message in one line"
