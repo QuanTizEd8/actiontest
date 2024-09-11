@@ -38,3 +38,7 @@ jobs:
           print("::group::\n::warning title=A Multiline Warning Title From Python::First line.\nSecond Line.\nThird Line.")
           print("Blah")
           print("::endgroup::")
+      - shell: bash
+        run: |
+          pip install rich
+          python -m rich
