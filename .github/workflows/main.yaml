@@ -55,9 +55,9 @@ jobs:
           console = rich.console.Console(force_terminal=True)
 
           print("::group:: Rich Group")
-          rich.print(rich.rule.Rule())
+          console.print(rich.rule.Rule())
           print("::endgroup::")
 
-          rich.print("::group:: Rich Group")
-          rich.print(rich.rule.Rule())
-          rich.print("::endgroup::")
+          console.print("::group:: Rich Group")
+          console.print(rich.rule.Rule())
+          console.print("::endgroup::")
