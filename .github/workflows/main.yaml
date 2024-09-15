@@ -46,18 +46,27 @@ jobs:
         run: |
           import rich
           import rich.rule
+          import rich.text
           rich.print(rich.rule.Rule())
 
           print("::group:: Rich Group")
           rich.print(rich.rule.Rule())
           print("::endgroup::")
 
-          console = rich.console.Console(force_terminal=True)
+          console = rich.console.Console(force_terminal=True, width=100)
 
           print("::group:: Rich Group")
           console.print(rich.rule.Rule())
           print("::endgroup::")
-
+          
           console.print("::group:: Rich Group")
           console.print(rich.rule.Rule())
           console.print("::endgroup::")
+        
+          text = rich.text.Text("::group:: ")
+          text.append(rich.text.Text("Rich Group", style="red"))
+          console.print(text)
+          console.print(rich.rule.Rule())
+          console.print("::endgroup::")
+          
+          
