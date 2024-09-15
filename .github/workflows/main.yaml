@@ -42,3 +42,22 @@ jobs:
         run: |
           pip install rich
           python -m rich
+      - shell: python
+        run: |
+          import rich
+          import rich.rule
+          rich.print(rich.rule.Rule())
+
+          print("::group:: Rich Group")
+          rich.print(rich.rule.Rule()
+          print("::endgroup::")
+
+          console = rich.console.Console(force_terminal=True)
+
+          print("::group:: Rich Group")
+          rich.print(rich.rule.Rule()
+          print("::endgroup::")
+
+          rich.print("::group:: Rich Group")
+          rich.print(rich.rule.Rule()
+          rich.print("::endgroup::")
