@@ -61,6 +61,7 @@ jobs:
           
           console.print("::group:: Rich Group")
           console.print(rich.rule.Rule())
+          console.print("wrg")
           console.print("::endgroup::")
         
           text = rich.text.Text("::group:: ")
