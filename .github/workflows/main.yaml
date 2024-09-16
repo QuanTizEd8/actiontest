@@ -68,5 +68,9 @@ jobs:
           console.print(text)
           console.print(rich.rule.Rule())
           console.print("::endgroup::")
+
+          from rich.console import Group
+          g = Group(text, rich.rule.Rule(), "in group", "::endgroup::")
+          console.print(g)
           
           
