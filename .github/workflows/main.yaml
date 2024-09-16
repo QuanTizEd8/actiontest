@@ -45,7 +45,7 @@ jobs:
       - shell: python
         run: |
           print("::debug::Multi\nline\debug")
-          print("::debug::::group::title\ngrouup content\n::endgroup::"
+          print("::debug::::group::title\ngrouup content\n::endgroup::")
           print("::group::title\ngrouup content\n::endgroup::")
           print("""::debug::::group::group name\n::debug::group content\n::debug::::endgroup::""")
           print("""::warning::::group::grup name\ngroup content\n::endgroup::""")
