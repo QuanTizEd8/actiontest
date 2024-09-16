@@ -44,6 +44,15 @@ jobs:
           python -m rich
       - shell: python
         run: |
+          print("::debug::Multi\nline\debug")
+          print("::debug::::group::title\ngrouup content\n::endgroup::"
+          print("::group::title\ngrouup content\n::endgroup::")
+          print("""::debug::::group::group name\n::debug::group content\n::debug::::endgroup::""")
+          print("""::warning::::group::grup name\ngroup content\n::endgroup::""")
+          print("""::group::::warning::warning title\ngroup content\n::endgroup::""")
+          
+      - shell: python
+        run: |
           import rich
           import rich.rule
           import rich.text
@@ -73,5 +82,11 @@ jobs:
           from rich.console import Group
           g = Group(text, rich.rule.Rule(), "in group", "::endgroup::")
           console.print(g)
+
+          text = rich.text.Text("::group:: ")
+          text.append(rich.text.Text("Rich Group", style="red"))
+          console.print(text)
+          console.print(rich.rule.Rule())
+          console.print("::endgroup::")
           
           
