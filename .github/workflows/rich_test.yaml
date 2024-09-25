@@ -30,5 +30,11 @@ jobs:
           print(str_output)
           import ansi_sgr as sgr
           print(sgr.remove_sequence(str_output))
+
+          multi_line = """First Line
+            Second line indented
+              Third line indented more"""
+
+          print(multi_line)
           
           
