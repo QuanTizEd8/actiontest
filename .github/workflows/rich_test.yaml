@@ -10,7 +10,7 @@ jobs:
           python -m rich
       - shell: python
         run: |
-          print("\033[48;2;255;0;0m                       ")
+          print("\033[48;2;255;0;0m                       ͏")
           print("\033[48;2;255;0;0m                       \033[0m")
           print("\033[48;2;255;0;0m                       \033[0m Some text after")
           print("\033[48;2;255;0;0m                       Some text before\033[0m")
