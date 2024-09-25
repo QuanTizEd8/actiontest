@@ -33,11 +33,10 @@ jobs:
           print(sgr.remove_sequence(str_output))
 
           multi_line = """First Line
-          \033[48;2;39;40;34m  Second line indented
+          \033[48;2;39;40;34m                                    Second line indented \x1b[0m │
               Third line indented more"""
 
           print(multi_line)
-          console.print(multi_line)
 
           synt = """╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
           │ \033[48;2;39;40;34m                                                                                                               \x1b[0m │
@@ -49,6 +48,5 @@ jobs:
           ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯"""
 
           print(synt)
-          console.print(synt)
           
           
