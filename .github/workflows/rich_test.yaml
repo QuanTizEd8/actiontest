@@ -32,7 +32,7 @@ jobs:
           print(sgr.remove_sequence(str_output))
 
           multi_line = """First Line
-            Second line indented
+          \033[48;2;39;40;34m  Second line indented
               Third line indented more"""
 
           print(multi_line)
