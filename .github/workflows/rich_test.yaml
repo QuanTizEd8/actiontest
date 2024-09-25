@@ -12,7 +12,7 @@ jobs:
           print("Leading spaces are normally respected:")
           print("                                 X                  ")
           print("But not when they are envlosed by ANSI code:")
-          print("\033[48;2;255;0;0m                       \033[0  X  ")
+          print("\033[48;2;255;0;0m                       \033[0m  X ")
 
           
           synt = """╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
