@@ -6,7 +6,7 @@ jobs:
     steps:
       - shell: bash
         run: |
-          pip install rich==13.8.1
+          pip install rich==13.8.1 ansi-sgr
           python -m rich
       - shell: python
         run: |
@@ -28,5 +28,7 @@ jobs:
               console.print(code_panel)
           str_output = capture.get()
           print(str_output)
+          import ansi_sgr as sgr
+          print(sgr.remove_sequence(str_output))
           
           
