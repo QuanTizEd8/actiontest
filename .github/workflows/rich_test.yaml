@@ -1,0 +1,27 @@
+on: workflow_dispatch
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: |
+          pip install rich == 13.8.1
+          python -m rich
+      - shell: python
+        run: |
+          from rich.console import Console
+          from rich.panel import Panel
+          from rich.syntax import Syntax
+          
+          yaml_syntax = """
+          test: true
+          examples:
+              ex1: 1
+              ex2: 2
+          """
+          code_panel = Panel(Syntax(yaml_syntax, lexer="yaml"))
+          console = Console(force_terminal=True)
+          console.print(code_panel)
+          
+          
