@@ -23,5 +23,10 @@ jobs:
           code_panel = Panel(Syntax(yaml_syntax, lexer="yaml"))
           console = Console(force_terminal=True)
           console.print(code_panel)
+
+          with console.capture() as capture:
+              console.print(code_panel)
+          str_output = capture.get()
+          print(str_output)
           
           
