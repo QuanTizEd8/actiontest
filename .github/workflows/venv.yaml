@@ -5,10 +5,12 @@ jobs:
     steps:
       - run: which python
       - uses: actions/setup-python@v5  # https://github.com/actions/setup-python
+        id: setup
         with:
           python-version: |
             3.9
             3.12
+      - run: echo ${{ steps.setuo.outputs }}
       - run: which python3.9
       - run: which python3.12
       - run: which python
