@@ -24,6 +24,8 @@ jobs:
           echo $OUT2__
       - shell: bash
         run: |
+          ${{ steps.setup1.outputs.python-path }} --version
+          ${{ steps.setup1.outputs.python-path }} -m pip --version
           ${{ steps.setup1.outputs.python-path }} -m venv v_env
       - shell: bash
         run: |
