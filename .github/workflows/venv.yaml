@@ -27,4 +27,5 @@ jobs:
       - run: |
           ${{ steps.setup1.outputs.python-path }} -m pip --version
           ${{ steps.setup1.outputs.python-path }} -m venv v_env
-          find v_env
+      - shell: bash
+        run: find v_env
