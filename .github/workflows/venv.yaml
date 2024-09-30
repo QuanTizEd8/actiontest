@@ -10,7 +10,9 @@ jobs:
           python-version: |
             3.9
             3.12
-      - run: echo ${{ toJSON(steps.setup.outputs) }}
+      - env:
+          OUT__: ${{ toJSON(steps.setup.outputs) }}
+        run: echo $OUT__
       - run: which python3.9
       - run: which python3.12
       - run: which python
