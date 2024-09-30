@@ -9,14 +9,20 @@ jobs:
     steps:
       - run: which python
       - uses: actions/setup-python@v5  # https://github.com/actions/setup-python
-        id: setup
+        id: setup1
         with:
-          python-version: |
-            3.9
-            3.12
+          python-version: 3.9
+      - uses: actions/setup-python@v5  # https://github.com/actions/setup-python
+        id: setup2
+        with:
+          python-version: 3.12
       - env:
-          OUT__: ${{ toJSON(steps.setup.outputs) }}
-        run: echo $OUT__
+          OUT1__: ${{ toJSON(steps.setup1.outputs) }}
+          OUT2__: ${{ toJSON(steps.setup1.outputs) }}
+        shell: bash
+        run: |
+          echo $OUT1__
+          echo $OUT2__
       - run: which python3.9
       - run: which python3.12
       - run: which python
