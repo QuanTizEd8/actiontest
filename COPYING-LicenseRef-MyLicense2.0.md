@@ -1,7 +1,5 @@
-                           GNU AFFERO GENERAL PUBLIC LICENSE                            
-                              Version 3, 19 November 2007                               
-========================================================================================
-
+#                           GNU AFFERO GENERAL PUBLIC LICENSE                            
+                              
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 
 Everyone is permitted to copy and distribute verbatim copies of this license document,
@@ -50,7 +48,7 @@ relicensing under this license.
 
 The precise terms and conditions for copying, distribution and modification follow.
 
-TERMS AND CONDITIONS
+## TERMS AND CONDITIONS
 
     0.  Definitions.
         
@@ -575,7 +573,7 @@ TERMS AND CONDITIONS
          liability in connection with the Program, unless a warranty or assumption of
          liability accompanies a copy of the Program in return for a fee.
 
-END OF TERMS AND CONDITIONS
+## END OF TERMS AND CONDITIONS
 
 How to Apply These Terms to Your New Programs
 
