@@ -88,6 +88,7 @@ TERMS AND CONDITIONS
     interface presents a list of user commands or options, such as a menu, a prominent
     item in the list meets this criterion.
 2.  Source Code.
+
     The "source code" for a work means the preferred form of the work for making
     modifications to it. "Object code" means any non-source form of a work.
 
@@ -116,6 +117,7 @@ TERMS AND CONDITIONS
     shared libraries and dynamically linked subprograms that the work is specifically
     designed to require, such as by intimate data communication or control flow between
     those
+
     subprograms and other parts of the work.
 
     The Corresponding Source need not include anything that users can regenerate
@@ -123,6 +125,7 @@ TERMS AND CONDITIONS
 
     The Corresponding Source for a work in source code form is that same work.
 3.  Basic Permissions.
+
     All rights granted under this License are granted for the term of copyright on the
     Program, and are irrevocable provided the stated conditions are met. This License
     explicitly affirms your unlimited permission to run the unmodified Program. The
@@ -143,6 +146,7 @@ TERMS AND CONDITIONS
     Conveying under any other circumstances is permitted solely under the conditions
     stated below. Sublicensing is not allowed; section 10 makes it unnecessary.
 4.  Protecting Users' Legal Rights From Anti-Circumvention Law.
+
     No covered work shall be deemed part of an effective technological measure under any
     applicable law fulfilling obligations under article 11 of the WIPO copyright treaty
     adopted on 20 December 1996, or similar laws prohibiting or restricting
@@ -155,6 +159,7 @@ TERMS AND CONDITIONS
     against the work's users, your or third parties' legal rights to forbid
     circumvention of technological measures.
 5.  Conveying Verbatim Copies.
+
     You may convey verbatim copies of the Program's source code as you receive it, in
     any medium, provided that you conspicuously and appropriately publish on each copy
     an appropriate copyright notice; keep intact all notices stating that this License
@@ -165,6 +170,7 @@ TERMS AND CONDITIONS
     You may charge any price or no price for each copy that you convey, and you may
     offer support or warranty protection for a fee.
 6.  Conveying Modified Source Versions.
+
     You may convey a work based on the Program, or the modifications to produce it from
     the Program, in the form of source code under the terms of section 4, provided that
     you also meet all of these conditions:
@@ -191,6 +197,7 @@ TERMS AND CONDITIONS
     the individual works permit. Inclusion of a covered work in an aggregate does not
     cause this License to apply to the other parts of the aggregate.
 7.  Conveying Non-Source Forms.
+
     You may convey a covered work in object code form under the terms of sections 4 and
     5, provided that you also convey the machine-readable Corresponding Source under the
     terms of this License, in one of these ways:
@@ -268,6 +275,7 @@ TERMS AND CONDITIONS
     implementation available to the public in source code form), and must require no
     special password or key for unpacking, reading or copying.
 8.  Additional Terms.
+
     "Additional permissions" are terms that supplement the terms of this License by
     making exceptions from one or more of its conditions. Additional permissions that
     are applicable to the entire Program shall be treated as though they were included
@@ -405,6 +413,7 @@ TERMS AND CONDITIONS
     Source to be so available, or (2) arrange to deprive yourself of the benefit of the
     patent license for this particular work, or (3) arrange, in a manner consistent with
     the requirements of this License, to extend the patent
+
     license to downstream recipients. "Knowingly relying" means you have actual
     knowledge that, but for the patent license, your conveying the covered work in a
     country, or your recipient's use of the covered work in a country, would infringe
@@ -441,6 +450,7 @@ TERMS AND CONDITIONS
     conditions of this License. If you cannot convey a covered work so as to satisfy
     simultaneously your obligations under this License and any other pertinent
     obligations, then as a consequence you may
+
     not convey it at all. For example, if you agree to terms that obligate you to
     collect a royalty for further conveying from those to whom you convey the Program,
     the only way you could satisfy both those terms and this License would be to refrain
@@ -527,6 +537,7 @@ each file should have at least the "copyright" line and a pointer to where the f
 notice is found.
 
 <one line to give the program's name and a brief idea of what it does.>
+
 Copyright (C) <year> <name of author>
 
 This program is free software: you can redistribute it and/or modify it under the terms
